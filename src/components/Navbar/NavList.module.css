@@ -1,0 +1,7 @@
+.navListLi a {
+  color: #434242;
+}
+
+.navListLi a:hover {
+  color: #7843e9;
+}
