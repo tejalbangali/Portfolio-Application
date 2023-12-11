@@ -42,6 +42,8 @@ const Projects = () => {
           Hostinger, etc & used by thousands of developers globally"
               buttonName="PROJECT LINK"
             />
+
+            
           </ul>
         </div>
       </div>

@@ -1,30 +1,27 @@
 .projectContainer {
   background-color: #ffffff;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 4rem;
   align-items: center;
 }
 
 .projectListImages {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .projectContainer p {
   color: #666;
   font-weight: 400;
   font-size: 18px;
-  /* margin-top: 20px; */
 }
 
 .projectAbout {
-  /* width: 90%; */
   align-items: center;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* padding-top: 3rem; */
   padding-bottom: 5rem;
 }
 
@@ -36,26 +33,20 @@
 }
 
 .projectAbout > p {
-    margin: 3rem 5rem 0 5rem;
-    font-size: 1.3rem;
-    width: 50%;
+  margin: 3rem 5rem 0 5rem;
+  font-size: 1.3rem;
+  width: 50%;
 }
 
 .projectListImagesSubContainer {
   padding: 20px 0;
-
-  /* justify-content: space-between;
-  display: flex;
-  flex-direction: column; */
-
   width: 30%;
 }
 
 .projectListImagesSubContainer > p {
-    margin: 1rem 0;
-    line-height: 2rem;
-    font-size: 1.2rem;
-    /* width: 50%; */
+  margin: 1rem 0;
+  line-height: 2rem;
+  font-size: 1.2rem;
 }
 
 .projectListImagesSubContainer h3 {
@@ -85,7 +76,6 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-
   padding-bottom: 8rem;
 }
 
@@ -100,8 +90,5 @@
   width: 100%;
   height: auto;
   max-width: 50rem;
-  /* display: block; */
-  /* -o-object-fit: cover; */
   object-fit: cover;
-  
 }
