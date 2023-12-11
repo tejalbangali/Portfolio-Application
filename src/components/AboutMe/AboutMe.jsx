@@ -42,27 +42,16 @@ const AboutMe = () => {
         <div className={styles.skills}>
           <h2>My Skills</h2>
           <ul>
-            <div className={styles.frontend}>
-              <h3>Frontend</h3>
-              <Skills skill="HTML" />
-              <Skills skill="CSS" />
-              <Skills skill="React" />
-              <Skills skill="Javascript" />
-            </div>
-
-            <div className={styles.backend}>
-              <h3>Backend & Database</h3>
-              <Skills skill="Nodejs" />
-              <Skills skill="Typescript" />
-              <Skills skill="MySql" />
-              <Skills skill="MongoDb" />
-            </div>
-
-            <div className={styles.db}>
-              <h3>Tools</h3>
-              <Skills skill="Git" />
-              <Skills skill="Postman" />
-            </div>
+            <Skills skill="HTML" />
+            <Skills skill="CSS" />
+            <Skills skill="Javascript" />
+            <Skills skill="React" />
+            <Skills skill="Typescript" />
+            <Skills skill="Nodejs" />
+            <Skills skill="MySql" />
+            <Skills skill="MongoDb" />
+            <Skills skill="Git" />
+            <Skills skill="Postman" />
           </ul>
         </div>
       </div>
