@@ -2,7 +2,6 @@
 
 html {
   scroll-behavior: smooth;
-  /* height: 100%; */
 }
 
 * {
@@ -13,18 +12,11 @@ html {
   /* background: transparent; */
 }
 
-
- /* {
-  min-height: calc(100vh-363px);
-} */
-
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 
   height: 100vh;
-  /* height: 100%; */
-  /* min-height: calc(100vh-363px); */
 
   position: relative;
 
@@ -42,7 +34,6 @@ body {
     ),
     url(/public/common-bg.svg);
   background-position: center;
-
 }
 
 ul {

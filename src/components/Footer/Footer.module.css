@@ -1,59 +1,45 @@
 footer {
-  width: 100%;
-
-  /* display: flex;
-  flex: 1; */
-  /* flex-shrink: 0; */
-
   background-color: #000000;
   color: white;
-
-  /* position: absolute;
-    bottom: 0; */
-
-  /* position: relative; */
-
+  width: 100%;
 }
 
 .containerFooter {
-  padding: 3rem 4rem 0 4rem;
-
-  /* position: sticky;
-  bottom: 0; */
- 
-  
+  padding: 1rem 4rem 0 4rem;
 }
 
 .subContainerFooter {
   display: flex;
-  gap: 18rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
 .nameInfo {
   display: flex;
-  align-items: left;
   justify-content: space-between;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 2rem 0;
+  width: 40%;
+  padding: 1rem 0;
 }
 
 .nameInfo h2 {
   font-weight: 600;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .nameInfo > p {
   font-weight: 300;
+  font-size: 1rem;
 }
 
 .socials {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: left;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footerDescription {
@@ -61,8 +47,8 @@ footer {
   align-items: center;
   font-size: 0.8rem;
   border-top: 1px solid #444;
-  margin-top: 3rem;
-  padding: 3rem 0;
+  margin-top: 1rem;
+  padding: 2rem 0;
 }
 
 .footerDescription a {
@@ -72,10 +58,10 @@ footer {
 }
 
 .socialImgs {
-  width: 30px;
+  width: 1.8rem;
 }
 
 .socials ul {
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
 }

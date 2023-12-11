@@ -10,20 +10,19 @@ import SideNavbar from "./components/SideNavbar/SideNavbar";
 function App() {
   return (
     <>
-        <Navbar />
-        <SideNavbar />
-        <HeroSection />
-        <MouseHover />
-        <AboutMe />
-        <Projects />
-
+      <Navbar />
+      <SideNavbar />
+      <HeroSection />
+      <MouseHover />
+      <AboutMe />
+      
+      <Projects />
 
       <Footer />
 
 
 
 
-      
     </>
   );
 }

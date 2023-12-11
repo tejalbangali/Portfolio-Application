@@ -2,7 +2,7 @@
   background-color: #ffffff;
   width: 100%;
   min-height: 100vh;
-  padding-top: 4rem;
+  padding-top: 6rem;
   align-items: center;
 }
 
@@ -13,7 +13,6 @@
 .projectContainer p {
   color: #666;
   font-weight: 400;
-  font-size: 18px;
 }
 
 .projectAbout {
@@ -26,32 +25,33 @@
 }
 
 .projectAbout > h2 {
-  font-size: 3rem;
-  word-spacing: 15px;
+  font-size: 2.5rem;
+  word-spacing: 0.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
+  color: black;
 }
 
 .projectAbout > p {
-  margin: 3rem 5rem 0 5rem;
-  font-size: 1.3rem;
+  margin: 2rem 5rem 0 5rem;
+  font-size: 1.2rem;
   width: 50%;
 }
 
 .projectListImagesSubContainer {
-  padding: 20px 0;
-  width: 30%;
+  padding: 5rem 0;
+  width: 35%;
 }
 
 .projectListImagesSubContainer > p {
   margin: 1rem 0;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
 }
 
 .projectListImagesSubContainer h3 {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .projectListImagesSubContainer button {
@@ -89,6 +89,6 @@
 .projectListImages img {
   width: 100%;
   height: auto;
-  max-width: 50rem;
+  max-width: 40rem;
   object-fit: cover;
 }

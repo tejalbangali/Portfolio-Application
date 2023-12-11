@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './NavList.module.css'
+import styles from './Navbar.module.css'
 
 const NavList = (props) => {
   return (

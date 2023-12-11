@@ -26,7 +26,7 @@ const Projects = () => {
             />
 
             <ProjectList
-              src="/public/projects-images/1.jpeg"
+              src="/public/projects-images/2.jpeg"
               heading="Dopefolio"
               description="Dopefolio is a successful Open-Source project that I created which
           have been featured on some of the biggest tech sites like CSS-Tricks,
@@ -42,8 +42,6 @@ const Projects = () => {
           Hostinger, etc & used by thousands of developers globally"
               buttonName="PROJECT LINK"
             />
-
-            
           </ul>
         </div>
       </div>
