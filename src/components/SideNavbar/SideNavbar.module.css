@@ -1,7 +1,6 @@
 .sideNavbar {
   background-color: white;
   align-items: center;
-  /* margin-top: 300px; */
   z-index: 1;
   position: absolute;
   left: 0;
@@ -10,7 +9,7 @@
 }
 
 .sideNavListLi a img {
-  width: 30px;
+  width: 40px;
 }
 
 .sideNavListLi a {
