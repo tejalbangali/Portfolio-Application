@@ -1,35 +1,34 @@
 import styles from "./Footer.module.css";
+import FooterSocials from "./FooterSocials";
 
 const Footer = () => {
   return (
     <footer>
-      <div className={styles.container}>
-        <div className={styles.nameInfo}>
-          <h2>Tejal Bangali</h2>
+      <div className={styles.containerFooter}>
+        <div className={styles.subContainerFooter}>
+          <div className={styles.nameInfo}>
+            <h2>TEJAL BANGALI</h2>
+            <p>
+              A Frontend focused Web Developer building the Frontend of Websites
+              and Web Applications that leads to the success of the overall
+              product
+            </p>
+          </div>
+
+          <div className={styles.socials}>
+            <h2>SOCIAL</h2>
+            <ul>
+              <FooterSocials src="/public/profile-logos/linkedin-ico.png" />
+              <FooterSocials src="/public/profile-logos/github-ico.png" />
+            </ul>
+          </div>
+        </div>
+
+        <div className={styles.footerDescription}>
           <p>
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            &copy; Copyright {new Date().getFullYear()}. Made by <a href="#">Tejal Bangali</a>
           </p>
         </div>
-        <div className={styles.socials}>
-        <h2>Social</h2>
-          <ul>
-            <li>
-              <a href="#"> img </a>
-            </li>
-            <li>
-              <a href="#"> img </a>
-            </li>
-            <li>
-              <a href="#"> img </a>
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <p className="footerDescription">
-          © Copyright 2023. Made by <a href="#">Tejal Bangali</a>
-        </p>
       </div>
     </footer>
   );

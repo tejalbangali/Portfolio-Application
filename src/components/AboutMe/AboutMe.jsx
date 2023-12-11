@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const AboutMe = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.aboutMeContainer}>
       <div className={styles.aboutMeSection}>
         <h2>ABOUT ME</h2>
         <hr />
@@ -13,7 +13,7 @@ const AboutMe = () => {
         </p>
       </div>
 
-      <div className={styles.subContainer}>
+      <div className={styles.aboutMeSubContainer}>
         <div className={styles.knowMeSection}>
           <h2>Get to know me!</h2>
           <p>

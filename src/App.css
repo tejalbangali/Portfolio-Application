@@ -2,27 +2,39 @@
 
 html {
   scroll-behavior: smooth;
+  /* height: 100%; */
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: inherit
+  font-family: inherit;
   /* overflow: hidden; */
   /* background: transparent; */
 }
 
+
+ /* {
+  min-height: calc(100vh-363px);
+} */
+
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   box-sizing: border-box;
+
+  /* height: 100vh; */
+  height: 100%;
+  /* min-height: calc(100vh-363px); */
+
   position: relative;
-  /* background-color: #121212;
-  color: white; */
+
+  display: flex;
+
+  flex-direction: column;
+
   /* overflow-x: hidden;
   overflow-y: scroll; */
 
-  /* color: #fff; */
   background: linear-gradient(
       to right,
       rgba(245, 245, 245, 0.8),
@@ -30,9 +42,6 @@ body {
     ),
     url(/public/common-bg.svg);
   background-position: center;
-
-  /* min-height: 80rem; */
-  /* max-height: 120rem; */
 
 }
 
@@ -42,4 +51,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
