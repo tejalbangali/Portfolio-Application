@@ -37,8 +37,22 @@
   border-radius: 5px;
 }
 
-/* @media (max-width: 900px) {
-  .sideNavbar {
-    display: none;
+@media (width < 1200px) {
+  .sideNavListLi a img {
+    width: 1.8rem;
   }
-} */
+
+  .sideNavbar ul {
+    margin: 0.5rem 0.1rem;
+  }
+
+  .sideNavListLi {
+    padding: 0.5rem 0.5rem;
+    padding-bottom: 0.2rem;
+    margin: 0 0.3rem;
+  }
+}
+
+/* .sideNavbar {
+    display: none;
+  } */

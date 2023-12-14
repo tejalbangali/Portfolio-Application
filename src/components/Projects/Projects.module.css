@@ -92,3 +92,53 @@
   max-width: 40rem;
   object-fit: cover;
 }
+
+@media (width < 1200px) {
+  .projectContainer {
+    padding-top: 3rem;
+  }
+
+  .projectAbout {
+    padding-bottom: 2rem;
+  }
+
+  .projectAbout > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .projectAbout > p {
+    margin: 1rem 4rem 0 4rem;
+    font-size: 1.1rem;
+    width: 60%;
+  }
+
+  .projectListImagesSubContainer {
+    padding: 5rem 0;
+    width: 30%;
+  }
+
+  .projectListImagesSubContainer > p {
+    margin: 0.8rem 0;
+    font-size: 1rem;
+  }
+
+  .projectListImagesSubContainer h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .projectListImagesSubContainer button {
+    margin-top: 0.8rem;
+  }
+
+  .projectListImages > li {
+    gap: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .projectListImages img {
+    max-width: 38rem;
+  }
+}

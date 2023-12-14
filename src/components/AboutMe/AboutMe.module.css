@@ -117,3 +117,50 @@
   /* transform: rotate(8deg); */
   transform: scale(1.1);
 }
+
+@media (width < 1200px) {
+  .aboutMeContainer {
+    padding-bottom: 1rem;
+  }
+
+  .aboutMeSection {
+    margin-bottom: 4rem;
+    position: absolute;
+    top: 10%;
+    margin-top: 1rem;
+  }
+
+  .aboutMeSection > h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .aboutMeSection > p {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 60%;
+    margin: 1.2rem auto 0 auto;
+  }
+
+  .aboutMeSubContainer {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 25%;
+    justify-content: space-around;
+    margin: 0 3rem;
+  }
+
+  .knowMeSection > p {
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  .skills ul {
+    margin: 0.8rem 0;
+  }
+
+  .skillsLi button {
+    margin: 0.1rem 0;
+  }
+}
