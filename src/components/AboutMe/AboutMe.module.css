@@ -205,3 +205,40 @@
     border-radius: 5px;
   }
 }
+
+@media (width < 625px) {
+  .aboutMeContainer {
+    padding-bottom: 10rem;
+  }
+
+  .aboutMeSubContainer {
+    margin: 1rem 4rem;
+    display: block;
+    align-content: center;
+    position: absolute;
+    top: 23%;
+  }
+
+  .knowMeSection {
+    width: 90%;
+    padding-bottom: 3rem;
+  }
+
+  .skills {
+    width: auto;
+  }
+
+  .skills ul {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: left;
+  }
+
+  .skillsLi button {
+    padding: 4px 12px;
+    font-weight: 400;
+    border-radius: 5px;
+  }
+}

@@ -80,3 +80,25 @@
     margin-top: 1.5rem;
   }
 }
+
+@media (width < 625px) {
+  .heroSection {
+    height: calc(100vh - 72px);
+  }
+
+  .heroSection .subHeroSection h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroInfo > p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+  }
+}

@@ -53,6 +53,21 @@
   }
 }
 
+@media (width < 625px) {
+  .sideNavListLi a img {
+    width: 1.5rem;
+  }
+
+  .sideNavbar ul {
+    margin: 0.3rem 0.1rem;
+  }
+
+  .sideNavListLi {
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    margin: 0 0.3rem;
+  }
+}
+
 /* .sideNavbar {
     display: none;
   } */
