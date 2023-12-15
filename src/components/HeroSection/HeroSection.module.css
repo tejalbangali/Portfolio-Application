@@ -81,7 +81,7 @@
   }
 }
 
-@media (width < 625px) {
+@media (width < 660px) {
   .heroSection {
     height: calc(100vh - 72px);
   }

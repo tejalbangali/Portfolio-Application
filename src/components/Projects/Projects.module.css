@@ -180,7 +180,7 @@
   }
 }
 
-@media (width < 625px) {
+@media (width < 660px) {
   .projectAbout {
     padding-bottom: 4rem;
   }

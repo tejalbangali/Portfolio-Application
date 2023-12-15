@@ -102,7 +102,7 @@
   }
 }
 
-@media (width < 625px) {
+@media (width < 660px) {
   .navList {
     display: none;
   }
