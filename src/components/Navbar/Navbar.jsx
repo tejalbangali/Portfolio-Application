@@ -19,9 +19,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div
-        className={showMediaIcon ? styles.viewMobNavList :  styles.mobNavList}
-      >
+      <div className={showMediaIcon ? styles.viewMobNavList : styles.navList}>
         <ul>
           <NavList text="HOME" link="#" />
           <NavList text="ABOUT" link="#" />
