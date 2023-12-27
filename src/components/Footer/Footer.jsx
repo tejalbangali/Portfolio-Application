@@ -20,11 +20,11 @@ const Footer = () => {
             <ul>
               <FooterSocials
                 appLink="https://www.linkedin.com/in/tejalbangali/"
-                src="/public/profile-logos/linkedin-ico.png"
+                src="/profile-logos/linkedin-ico.png"
               />
               <FooterSocials
                 appLink="https://github.com/tejalbangali"
-                src="/public/profile-logos/github-ico.png"
+                src="/profile-logos/github-ico.png"
               />
             </ul>
           </div>

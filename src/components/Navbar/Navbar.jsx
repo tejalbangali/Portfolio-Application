@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <div className={styles.logoName}>
         <a href="#">
-          <img src="/public/logo.png" alt="logo" /> Tejal Bangali
+          <img src="/logo.png" alt="logo" /> Tejal Bangali
         </a>
       </div>
 

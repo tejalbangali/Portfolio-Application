@@ -6,16 +6,16 @@ const SideNavbar = () => {
     <div className={styles.sideNavbar}>
       <ul>
         <SideNavList
-          src="/public/profile-logos/linkedin.png"
+          src="/profile-logos/linkedin.png"
           appLink="https://www.linkedin.com/in/tejalbangali/"
         />
         <SideNavList
-          src="/public/profile-logos/github.png"
+          src="/profile-logos/github.png"
           appLink="https://github.com/tejalbangali"
         />
 
         <SideNavList
-          src="/public/profile-logos/gmail-logo.png"
+          src="/profile-logos/gmail-logo.png"
           appLink="mailto:tejal.bangali@gmail.com"
         />
       </ul>

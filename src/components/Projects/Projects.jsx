@@ -17,7 +17,7 @@ const Projects = () => {
         <div className={styles.projectListSubContainer}>
           <ul>
             <ProjectList
-              src="/public/projects-images/1.jpeg"
+              src="/projects-images/1.jpeg"
               // appLink="https://github.com/tejalbangali" -> ADD LINKS
               heading="Dopefolio"
               description="Dopefolio is a successful Open-Source project that I created which
