@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 
 const Projects = () => {
   return (
-    <div className={styles.projectContainer}>
+    <div className={styles.projectContainer} id="projects">
       <div className={styles.projectAbout}>
         <h2>PROJECTS</h2>
         <hr />
@@ -18,24 +18,7 @@ const Projects = () => {
           <ul>
             <ProjectList
               src="/public/projects-images/1.jpeg"
-              heading="Dopefolio"
-              description="Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally"
-              buttonName="PROJECT LINK"
-            />
-
-            <ProjectList
-              src="/public/projects-images/2.jpeg"
-              heading="Dopefolio"
-              description="Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally"
-              buttonName="PROJECT LINK"
-            />
-
-            <ProjectList
-              src="/public/projects-images/1.jpeg"
+              // appLink="https://github.com/tejalbangali" -> ADD LINKS
               heading="Dopefolio"
               description="Dopefolio is a successful Open-Source project that I created which
           have been featured on some of the biggest tech sites like CSS-Tricks,

@@ -14,17 +14,19 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.logoName}>
-        <a href="/">
-          <img src="/public/logo.png" alt="" /> Tejal Bangali
+        <a href="#">
+          <img src="/public/logo.png" alt="logo" /> Tejal Bangali
         </a>
       </div>
 
       <div className={showMediaIcon ? styles.viewMobNavList : styles.navList}>
         <ul>
           <NavList text="HOME" link="#" />
-          <NavList text="ABOUT" link="#" />
-          <NavList text="PROJECTS" link="#" />
-          <NavList text="CONTACT" link="#" />
+          <NavList text="ABOUT" link="./#about" />
+          <NavList text="PROJECTS" link="./#projects" />
+
+          {/* add contact page */}
+          {/* <NavList text="CONTACT" link="#" /> */}
         </ul>
       </div>
 

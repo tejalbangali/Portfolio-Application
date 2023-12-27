@@ -54,6 +54,10 @@
   font-size: 1.6rem;
 }
 
+.projectListImagesSubContainer > button > a {
+  all: unset;
+}
+
 .projectListImagesSubContainer button {
   all: unset;
   background-color: #7843e9;

@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const AboutMe = () => {
   return (
-    <div className={styles.aboutMeContainer}>
+    <div className={styles.aboutMeContainer} id="about">
       <div className={styles.aboutMeSection}>
         <h2>ABOUT ME</h2>
         <hr />
@@ -24,9 +24,8 @@ const AboutMe = () => {
             <br /> <br />I also like sharing content related to the stuff that I
             have learned over the years in <strong>Web Development</strong> so
             it can help other people of the Dev Community. Feel free to Connect
-            or Follow me on my
-            <a href="#">
-              {" "}
+            or Follow me on my{" "}
+            <a href="https://www.linkedin.com/in/tejalbangali/" target="_blank">
               <u>Linkedin</u>{" "}
             </a>
             where I post useful content related to Web Development and
@@ -36,7 +35,9 @@ const AboutMe = () => {
             matches my skills and experience then don't hesitate to{" "}
             <strong>contact</strong> me.
           </p>
-          <button>CONTACT</button>
+
+          {/* {add contact section} */}
+          {/* <button>CONTACT</button> */}
         </div>
 
         <div className={styles.skills}>

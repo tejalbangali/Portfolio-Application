@@ -18,15 +18,24 @@ const Footer = () => {
           <div className={styles.socials}>
             <h2>SOCIAL</h2>
             <ul>
-              <FooterSocials src="/public/profile-logos/linkedin-ico.png" />
-              <FooterSocials src="/public/profile-logos/github-ico.png" />
+              <FooterSocials
+                appLink="https://www.linkedin.com/in/tejalbangali/"
+                src="/public/profile-logos/linkedin-ico.png"
+              />
+              <FooterSocials
+                appLink="https://github.com/tejalbangali"
+                src="/public/profile-logos/github-ico.png"
+              />
             </ul>
           </div>
         </div>
 
         <div className={styles.footerDescription}>
           <p>
-            &copy; Copyright {new Date().getFullYear()}. Made by <a href="#">Tejal Bangali</a>
+            &copy; Copyright {new Date().getFullYear()}. Made by{" "}
+            <a href="https://www.linkedin.com/in/tejalbangali/" target="_blank">
+              Tejal Bangali
+            </a>
           </p>
         </div>
       </div>

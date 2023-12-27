@@ -9,7 +9,9 @@ const ProjectList = (props) => {
         <div className={styles.projectListImagesSubContainer}>
           <h3>{props.heading}</h3>
           <p>{props.description}</p>
-          <button>{props.buttonName}</button>
+          <a href={props.appLink} target="_blank">
+            <button>{props.buttonName} </button>
+          </a>
         </div>
       </li>
     </div>

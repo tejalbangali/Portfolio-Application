@@ -4,10 +4,16 @@ import styles from "./SideNavbar.module.css";
 const SideNavbar = () => {
   return (
     <div className={styles.sideNavbar}>
-        <ul>
-            <SideNavList src="/public/profile-logos/linkedin.png" /> 
-            <SideNavList src="/public/profile-logos/github.png" /> 
-        </ul>
+      <ul>
+        <SideNavList
+          src="/public/profile-logos/linkedin.png"
+          appLink="https://www.linkedin.com/in/tejalbangali/"
+        />
+        <SideNavList
+          src="/public/profile-logos/github.png"
+          appLink="https://github.com/tejalbangali"
+        />
+      </ul>
     </div>
   );
 };

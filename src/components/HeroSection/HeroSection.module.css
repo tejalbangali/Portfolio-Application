@@ -32,7 +32,7 @@
   margin: 0 auto 2rem auto;
 }
 
-.heroSection .subHeroSection > button {
+.heroSection .subHeroSection > a > button {
   all: unset;
   color: white;
   background-color: #7843e9;
