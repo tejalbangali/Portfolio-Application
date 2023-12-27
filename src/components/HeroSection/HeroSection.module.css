@@ -102,3 +102,16 @@
     margin: 0 auto 1rem auto;
   }
 }
+
+@media (width < 541px) {
+  .heroSection .subHeroSection h1 {
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+
+  .heroInfo > p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+}

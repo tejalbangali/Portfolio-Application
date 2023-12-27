@@ -208,7 +208,7 @@
 
 @media (width < 660px) {
   .aboutMeContainer {
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
   }
 
   .aboutMeSubContainer {
@@ -226,16 +226,44 @@
 
   .skills ul {
     margin: 1rem 0;
+    gap: 0.6rem;
+    justify-content: left;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: left;
   }
 
   .skillsLi button {
     padding: 4px 12px;
     font-weight: 500;
     border-radius: 5px;
+    font-size: 1rem;
+  }
+}
+
+@media (width < 541px) {
+  .aboutMeContainer {
+    padding-bottom: 15rem;
+  }
+
+  .aboutMeSubContainer {
+    margin: 1rem 0 1rem 2rem;
+  }
+
+  .skills ul {
+    margin: 1rem 0.2rem;
+  }
+
+  .skillsLi button {
+    font-size: 0.95rem;
+  }
+
+  .knowMeSection > p {
     font-size: 0.9rem;
+  }
+}
+
+@media (width < 359px) {
+  .aboutMeContainer {
+    padding-bottom: 22rem;
   }
 }

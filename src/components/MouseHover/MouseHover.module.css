@@ -35,8 +35,8 @@
   }
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 359px) {
   .mouse {
     display: none;
   }
-} */
+}
