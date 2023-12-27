@@ -15,14 +15,8 @@ function App() {
       <HeroSection />
       <MouseHover />
       <AboutMe />
-      
       <Projects />
-
       <Footer />
-
-
-
-
     </>
   );
 }

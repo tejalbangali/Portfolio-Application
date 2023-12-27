@@ -25,8 +25,8 @@ const Navbar = () => {
           <NavList text="ABOUT" link="./#about" />
           <NavList text="PROJECTS" link="./#projects" />
 
-          {/* add contact page */}
-          {/* <NavList text="CONTACT" link="#" /> */}
+          {/* add contact form */}
+          <NavList text="CONTACT ME" link="mailto:tejal.bangali@gmail.com" />
         </ul>
       </div>
 

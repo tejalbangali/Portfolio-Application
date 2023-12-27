@@ -13,6 +13,11 @@ const SideNavbar = () => {
           src="/public/profile-logos/github.png"
           appLink="https://github.com/tejalbangali"
         />
+
+        <SideNavList
+          src="/public/profile-logos/gmail-logo.png"
+          appLink="mailto:tejal.bangali@gmail.com"
+        />
       </ul>
     </div>
   );
