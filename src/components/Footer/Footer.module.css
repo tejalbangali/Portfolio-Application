@@ -128,13 +128,21 @@ footer {
   }
 
   .socials {
-    display: block;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: left;
+    gap: 3rem;
     padding: 1rem 0;
   }
 
   .socials h2 {
-    padding-bottom: 0.8rem;
+    padding: 0.8rem 0;
+  }
+
+  .socials ul {
+    display: flex;
+    gap: 0.3rem;
   }
 
   .footerDescription {
