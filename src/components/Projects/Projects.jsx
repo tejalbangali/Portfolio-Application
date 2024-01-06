@@ -16,13 +16,53 @@ const Projects = () => {
       <div className={styles.projectList}>
         <div className={styles.projectListSubContainer}>
           <ul>
+
+          <ProjectList
+              src="/projects-images/contact-form.png"
+              appLink="https://static-contactus-form.netlify.app/"
+              heading="Contact Us Page"
+              description="Created this static contact us page using Reactjs."
+              buttonName="PROJECT LINK"
+            />
+
+
             <ProjectList
-              src="/projects-images/1.jpeg"
-              // appLink="https://github.com/tejalbangali" -> ADD LINKS
-              heading="Dopefolio"
-              description="Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally"
+              src="/projects-images/dice-game.png"
+              appLink="https://tejalbangali.github.io/Dice_Roll_Rush/"
+              heading="Dice Game"
+              description="Created this Fun Dice Game using Javascript, Html and Css. Have fun playing with a Robot."
+              buttonName="PROJECT LINK"
+            />
+
+            <ProjectList
+              src="/projects-images/drum-game.png"
+              appLink="https://tejalbangali.github.io/Drum-kit-beat/"
+              heading="Dice Game"
+              description="Created this Fun Drum Playing Game which plays Audio just like a real one, using Javascript, Html and Css. Have fun playing with the Drums."
+              buttonName="PROJECT LINK"
+            />
+
+            <ProjectList
+              src="/projects-images/flodesk-card.png"
+              appLink="https://tejalbangali.github.io/Flodesk-Login-Screen---Clone/"
+              heading="Flodesk Login Screen"
+              description="Created this Flodesk login screen clone using Html and Css."
+              buttonName="PROJECT LINK"
+            />
+
+            <ProjectList
+              src="/projects-images/gphotos-card.png"
+              appLink="https://tejalbangali.github.io/Google-photos-card---Clone/"
+              heading="Google Photos Card"
+              description="Created this Google Photos card screen clone using Html and Css."
+              buttonName="PROJECT LINK"
+            />
+
+            <ProjectList
+              src="/projects-images/linkedin-card.png"
+              appLink="https://tejalbangali.github.io/Linkedin-Profile-card---Clone/"
+              heading="Linkedin Profile Card"
+              description="Created this Profile card clone of Linkedin using Html and Css."
               buttonName="PROJECT LINK"
             />
           </ul>
